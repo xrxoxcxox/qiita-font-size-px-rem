@@ -1,0 +1,29 @@
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.xs {
+  font-size: 1rem;
+}
+
+.s {
+  font-size: 1.4rem;
+}
+
+.m {
+  font-size: 2.2rem;
+}
+
+.l {
+  font-size: 3.2rem;
+}
+
+.xl {
+  font-size: 4.4rem;
+}

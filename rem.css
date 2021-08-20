@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.xs {
+  font-size: 0.625rem;
+}
+
+.s {
+  font-size: 0.875rem;
+}
+
+.m {
+  font-size: 1.375rem;
+}
+
+.l {
+  font-size: 2rem;
+}
+
+.xl {
+  font-size: 2.75rem;
+}
