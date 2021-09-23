@@ -3,11 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="./style.css" />
+  <title>font-size: 62.5%;はブラウザの拡大縮小で表示がおかしくなるのか？</title>
 </head>
 <body>
-  <a href="./px.html">px指定</a>
-  <a href="./rem.html">rem指定</a>
-  <a href="./rem10px.html">rem指定（62.5%変換）</a>
+  <div class="container">
+    <h1 class="title">font-size: 62.5%;はブラウザの拡大縮小で表示がおかしくなるのか？</h1>
+    <a href="./px.html" class="item">ルート要素にfont-size指定無し、個別要素にpx指定</a>
+    <a href="./rem.html" class="item">ルート要素にfont-size指定無し、個別要素にrem指定</a>
+    <a href="./rem10px.html" class="item">ルート要素にfont-size: 62.5%、個別要素にrem指定</a>
+  </div>
 </body>
 </html>

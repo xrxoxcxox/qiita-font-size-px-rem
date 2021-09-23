@@ -1,7 +1,37 @@
+* {
+  box-sizing: border-box;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
 .container {
-  display: flex;
-  flex-direction: column;
+  align-content: center;
   align-items: center;
+  display: grid;
+  grid-template-columns: 320px auto;
+  grid-template-rows: repeat(auto-fit, 80px);
+  height: 100%;
+  justify-content: center;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  grid-column: 1 / 3;
+}
+
+.heading {
+  grid-column: 1 / 2;
+}
+
+.item {
+  grid-column: 2 / 3;
 }
 
 .xs {
